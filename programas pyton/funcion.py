@@ -39,3 +39,4 @@ def area(base, altura):
  altura=int(input("ingrese la altura del rectangulo"))
  area=(base*altura)
 print("el area es:",area)
+ 
