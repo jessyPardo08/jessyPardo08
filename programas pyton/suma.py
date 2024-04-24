@@ -1,0 +1,7 @@
+print("ingrese un numero")
+num1=int (input())
+print ("ingrese un segundo numero")
+num2=int (input())
+print ("ingrese un tercer numero")
+num3=int(input())
+print((num1+num2+num3)/3)
