@@ -51,14 +51,14 @@
 # r1=rec (4,2)
 # area=r1.perimetro()
 # perimetro=r1.perimetro()
-from email.mime import base
+# from email.mime import base
 
 
-def area(base , alto):
+# def area(base , alto):
 
- base=int (input("ingrese la base del rectangulo"))
-altura=int (input("ingrese la altura del rectanulo,"))
-area=(base*altura)
-print("el area es :",area)
+#  base=int (input("ingrese la base del rectangulo"))
+# altura=int (input("ingrese la altura del rectanulo,"))
+# area=(base*altura)
+# print("el area es :",area)
 
 
