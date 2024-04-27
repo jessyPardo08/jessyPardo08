@@ -74,3 +74,6 @@ elif edad>18 and grupo =="B":
         print("usted es mayor y pertenece al grupo A")
 else:
         print("usted no es mayor y no pertenece al grupo")
+  
+  
+print
