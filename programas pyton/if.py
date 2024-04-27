@@ -65,15 +65,30 @@
 
 ##ejemplo de valiable boleana 
 
-edad=9
-grupo= "A"
+# edad=9
+# grupo= "A"
 
-if edad>18 or grupo == "A":
-        print ("usted es mayor y pertenece al grupo A")
-elif edad>18 and grupo =="B":
-        print("usted es mayor y pertenece al grupo A")
+# if edad>18 or grupo == "A":
+#         print ("usted es mayor y pertenece al grupo A")
+# elif edad>18 and grupo =="B":
+#         print("usted es mayor y pertenece al grupo A")
+# else:
+#         print("usted no es mayor y no pertenece al grupo")
+  
+lecha_sin_lactosa=True
+caja_habilitadora=True
+sistema_de_pago= False
+lider= "abierto"
+  
+if lider=="abirto":
+     print("puede entrar al super")
+     if leche_sin_lactosa:
+          print("hay leche sin lactosa")
+          if caja_habilitadora:
+             print("caja habilitada")
+if sistema_de_pago:
+                   print("puede pagar con debito")
 else:
-        print("usted no es mayor y no pertenece al grupo")
-  
-  
-print
+    print("puede pagar con efectivo")
+    
+    

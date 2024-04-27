@@ -6,22 +6,22 @@ def primerwhile():
     text=input()
  print("Ese es el saludo correcto")
 
-# primerwhile()
+primerwhile()
 
 
-for i in range(numerodeintentos)?
-  passw =input(inte)
-def verifpassw():
- passw=""
- cont=1
- print("Ingrese su password ")
- passw=input()
- while passw !="1234"and cont<=3:
-    print("Su password es incorrecta")
-    cont=cont+1
-    passw=input()
-    if cont==3:
-      print(" usted a bloqueado su contraseña")
+# for i in range(numerodeintentos)?
+#   passw =input(inte)
+# def verifpassw():
+#  passw=""
+#  cont=1
+#  print("Ingrese su password ")
+#  passw=input()
+#  while passw !="1234"and cont<=3:
+#     print("Su password es incorrecta")
+#     cont=cont+1
+#     passw=input()
+#     if cont==3:
+#       print(" usted a bloqueado su contraseña")
  
 #  print("Bienvenido Usuario Admin")
 
@@ -68,15 +68,15 @@ def verifpassw():
 #         print("ha pasado a una hora "),hora 
 # if hora==int(12)
 # print("\despues de este horario no pasan micros")
-print("---Bienvenido al programa 1.0---")
-print("1.-verifica password")
-print("2")
-op=int(input("seleccione una opccion"))
-match op:
-    case 1:
-        verifpassw()
-    case 2 :
-        primerwhile()
+# print("---Bienvenido al programa 1.0---")
+# print("1.-verifica password")
+# print("2")
+# op=int(input("seleccione una opccion"))
+# match op:
+#     case 1:
+#         verifpassw()
+#     case 2 :
+#         primerwhile()
 
                 
 
