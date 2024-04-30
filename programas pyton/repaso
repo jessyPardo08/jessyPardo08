@@ -1,0 +1,30 @@
+def calcular_costo_semestre(carrera):
+    meses_por_semestre = 5
+    costo_mensual = 300000
+    descuento = 0.15 if carrera > 3 else 0  # Descuento del 15% para carreras de más de 6 semestres
+    costo_semestre = meses_por_semestre * costo_mensual * (1 - descuento)
+    return costo_semestre
+
+def main():
+    nombre_alumno = input("Ingrese el nombre del alumno: ")
+    carrera = int(input("Ingrese el número de la carrera (1, 2 o 3): "))
+    
+    if carrera == 1:
+        duracion_carrera = 8
+    elif carrera == 2:
+        duracion_carrera = 10
+    elif carrera == 3:
+        duracion_carrera = 6
+    else:
+        print("Carrera no válida. Debe ser 1, 2 o 3.")
+        return
+
+    total_por_carrera = calcular_costo_semestre(carrera) * duracion_carrera
+    total_por_anio = calcular_costo_semestre(carrera) * 2  # 2 semestres por año
+
+    print("Nombre del alumno:", nombre_alumno)
+    print("Carrera:", carrera)
+    print("Duración de la carrera:", duracion_carrera, "semestres")
+    print("Total por año:", total_por_anio)
+    print("Total por carrera:", total_por_carrera)
+
