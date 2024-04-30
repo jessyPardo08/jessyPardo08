@@ -20,11 +20,13 @@ def main():
         return
 
     total_por_carrera = calcular_costo_semestre(carrera) * duracion_carrera
-    total_por_anio = calcular_costo_semestre(carrera) * 2  # 2 semestres por año
+    total_por_año = calcular_costo_semestre(carrera) * 2  # 2 semestres por año
 
     print("Nombre del alumno:", nombre_alumno)
     print("Carrera:", carrera)
     print("Duración de la carrera:", duracion_carrera, "semestres")
-    print("Total por año:", total_por_anio)
+    print("Total por año:", total_por_año)
     print("Total por carrera:", total_por_carrera)
+if __name__== "main":
+    main()
 
