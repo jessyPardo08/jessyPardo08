@@ -27,6 +27,6 @@ def main():
     print("Duración de la carrera:", duracion_carrera, "semestres")
     print("Total por año:", total_por_año)
     print("Total por carrera:", total_por_carrera)
-if __name__== "main":
+if __name__== "_main_":
     main()
 
