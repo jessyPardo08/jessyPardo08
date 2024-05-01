@@ -75,20 +75,22 @@
 # else:
 #         print("usted no es mayor y no pertenece al grupo")
   
-lecha_sin_lactosa=True
-caja_habilitadora=True
-sistema_de_pago= False
-lider= "abierto"
+# leche_sin_lactosa=True
+# caja_habilitada= True
+# sistema_de_pago= False
+# efectivo= True
+
+# lider= "abierto"
   
-if lider=="abirto":
-     print("puede entrar al super")
-     if leche_sin_lactosa:
-          print("hay leche sin lactosa")
-          if caja_habilitadora:
-             print("caja habilitada")
-if sistema_de_pago:
-                   print("puede pagar con debito")
-else:
-    print("puede pagar con efectivo")
+# if lider!=" abierto ":
+#      print("  puede entrar al super")
+#      if leche_sin_lactosa:
+#           print("hay leche sin lactosa")
+#           if caja_habilitada:
+#              print("caja habilitada")
+#      if sistema_de_pago:
+#                    print("puede pagar con debito")
+# elif efectivo 
+#     print("puede pagar con efectivo")
     
     
