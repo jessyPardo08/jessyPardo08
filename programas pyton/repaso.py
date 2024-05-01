@@ -1,32 +1,61 @@
-def calcular_costo_semestre(carrera):
-    meses_por_semestre = 5
-    costo_mensual = 300000
-    descuento = 0.15 if carrera > 3 else 0  # Descuento del 15% para carreras de más de 6 semestres
-    costo_semestre = meses_por_semestre * costo_mensual * (1 - descuento)
-    return costo_semestre
+print("ingrese su nombre ")
+nombre_de_usuario=(input())
 
-def main():
-    nombre_alumno = input("Ingrese el nombre del alumno: ")
-    carrera = int(input("Ingrese el número de la carrera (1, 2 o 3): "))
-    
-    if carrera == 1:
-        duracion_carrera = 8
-    elif carrera == 2:
-        duracion_carrera = 10
-    elif carrera == 3:
-        duracion_carrera = 6
-    else:
-        print("Carrera no válida. Debe ser 1, 2 o 3.")
-        return
+print("seleccione una carrera")
+print("carrera 1 ")
+print("carrera 2 ")
+print("carrera 3 ")
+op=int(input())
 
-    total_por_carrera = calcular_costo_semestre(carrera) * duracion_carrera
-    total_por_año = calcular_costo_semestre(carrera) * 2  # 2 semestres por año
+match op:  
+    case 1 : 
+        print(nombre_de_usuario)
+        semestres=int(8)
+        print (" Esta carrera dura 8 semestres")
+        valor_mesual=int(300000)
+        print("El valor mesual es de ", valor_mesual)
+        valor_anual=int(valor_mesual * 2)
+        print (" El valor anual es de ", valor_anual)
+        valor_total=int(300000 * 8 )
+        print(" El valor total es de " , valor_total)
+        
+        
 
-    print("Nombre del alumno:", nombre_alumno)
-    print("Carrera:", carrera)
-    print("Duración de la carrera:", duracion_carrera, "semestres")
-    print("Total por año:", total_por_año)
-    print("Total por carrera:", total_por_carrera)
-if __name__== "_main_":
-    main()
+    case 2:
+       print(nombre_de_usuario)
+       semestres=int(6)
+       print ("esta carrera dura 6 semestres " )
+       valor_mesual=int(300000)
+       print("su valor mesual es de ", valor_mesual)
+       valor_anual=int(valor_mesual * 2)
+       print ("su valor anual es de ", valor_anual)
+       valor_total=int(300000 * 6 )
+       print("su valor totla es de " , valor_total)
+       
+   
+    case 3: 
+       print(nombre_de_usuario)
+       semestres=int(10)
+       print ("esta carrera dura 10 semestres")
+       valor_mesual=int(300000)
+       print("su valor mensual es de ", valor_mesual)
+       valor_anual=int(valor_mesual * 2)
+       print ("su valor anual es de ", valor_anual)
+       valor_total=int(300000 * 10 )
+       print("su valor total es de " , valor_total)
+
+       
+       
+if  semestres > 6 : 
+        print(" Ya que la carrera consta con mas de 6 semestres" )
+        print(" Usted tiene un descuento de 15%, al valor total de la carrera")
+        quince_por_ciento = valor_total * 0.15 
+        print("El descuento es de ", quince_por_ciento )
+else:
+     semestres  < 6 
+     print("Esta carrera no tiene descuento")
+
+
+
+
 

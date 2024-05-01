@@ -19,17 +19,7 @@
 # else:
 #     print(" El " + str (num3) + " es mayor que todos ")
 
-def validar_ticket (numero_ticket):
-  if 100< numero_ticket<750:
-     print ("ticket valido ")
 
-def determinar_sector(numero_ticket):
-    if 100 <numero_ticket <400:
-        print("cancha") 
-    elif 401 <numero_ticket <750:
-       print("galeria") 
-    else:
-        return ("ticket fuera de rango")
  
 
 
