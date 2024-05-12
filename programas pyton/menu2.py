@@ -39,6 +39,22 @@ def Areacirculo(num):
 def calcular_area(num):
     area=(num*num)* 3.14
     return area
+def area_cuadrado(num):
+    area=(num*num )
+    return area 
+def area_triangulo(num, num2):
+    area=(num*num2)/2
+    return area 
+def area_rectangulo(b, a):
+    area=(b*a)
+    return area 
+def Tpitagoras(cateto1, cateto2):
+   hipotenusa= ((cateto1**2)+(cateto2**2))
+   return(hipotenusa )
+    
+
+
+
 
 while True:
     print("Seleccione una opcion")
@@ -48,6 +64,10 @@ while True:
     print("4.- -Division")
     print("5.- -Perimetro del cuadrado")
     print("6.- -area del circulo")
+    print("7.- -area del cuadrardo")
+    print("8.- -area de un triangulo")
+    print("9.- -area de un rectangulo")
+    print("10.- -pitagoras")
     op=int(input())
 
     match op:
@@ -78,7 +98,26 @@ while True:
         case 6:
             print("ingrese un numero")
             num=int(input())
-            print(calcular_area(num))
+            print("Su resultado es", calcular_area(num))
+        case 7:
+            print("ingrese un  numero")
+            num=int(input())
+            print( "Su resultado es", area_cuadrado(num))
+        case 8:
+            print("ingrese dos numero")
+            num=int(input())
+            num2=int(input())
+            print( "Su resultado es", area_triangulo(num, num2))
+        case 9:
+            print("ingrese dos numero")
+            b=int(input())
+            a=int(input())
+            print( "Su resultado es", area_rectangulo(b, a))
+        case 10:
+            print("ingrese los catetos")
+            b=int(input())
+            c=int(input())
+            print( "Su resultado de la hipotenusa es" , Tpitagoras(b, c))
     break
 
 
