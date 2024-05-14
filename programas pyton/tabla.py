@@ -1,9 +1,5 @@
-print("ingrse un numero para multiplicar")
-numero=int(input()) 
+numero=int(input("ingrese el numero el cual quiere saber la tabla hasta el 10")) 
 for i in range (1,11) :
- resultado= i*numero 
+ resulado= i*numero 
  print(i*numero)
-
-
-
 
