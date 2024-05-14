@@ -1,13 +1,13 @@
 print("ingrese su nombre ")
 nombre_de_usuario=(input())
+while True:
+   print("seleccione una carrera")
+   print("carrera 1 ")
+   print("carrera 2 ")
+   print("carrera 3 ")
+   op=int(input())
 
-print("seleccione una carrera")
-print("carrera 1 ")
-print("carrera 2 ")
-print("carrera 3 ")
-op=int(input())
-
-match op:  
+   match op:  
     case 1 : 
         print(nombre_de_usuario)
         semestres=int(8)
@@ -18,6 +18,14 @@ match op:
         print (" El valor anual es de ", valor_anual)
         valor_total=int(300000 * 8 )
         print(" El valor total es de " , valor_total)
+        if  semestres > 6 : 
+         print(" Ya que la carrera consta con mas de 6 semestres" )
+         print(" Usted tiene un descuento de 15%, al valor total de la carrera")
+         quince_por_ciento = valor_total * 0.15 
+         print("El descuento es de ", quince_por_ciento )
+        else:
+         semestres  < 6 
+         print("Esta carrera no tiene descuento")
         
         
 
@@ -31,6 +39,14 @@ match op:
        print ("su valor anual es de ", valor_anual)
        valor_total=int(300000 * 6 )
        print("su valor totla es de " , valor_total)
+       if  semestres > 6 : 
+        print(" Ya que la carrera consta con mas de 6 semestres" )
+        print(" Usted tiene un descuento de 15%, al valor total de la carrera")
+        quince_por_ciento = valor_total * 0.15 
+        print("El descuento es de ", quince_por_ciento )
+       else:
+        semestres  < 6 
+        print("Esta carrera no tiene descuento")
        
    
     case 3: 
@@ -43,17 +59,23 @@ match op:
        print ("su valor anual es de ", valor_anual)
        valor_total=int(300000 * 10 )
        print("su valor total es de " , valor_total)
-
-       
-       
-if  semestres > 6 : 
+       if  semestres > 6 : 
         print(" Ya que la carrera consta con mas de 6 semestres" )
         print(" Usted tiene un descuento de 15%, al valor total de la carrera")
         quince_por_ciento = valor_total * 0.15 
         print("El descuento es de ", quince_por_ciento )
-else:
-     semestres  < 6 
-     print("Esta carrera no tiene descuento")
+       else:
+        semestres  < 6 
+        print("Esta carrera no tiene descuento")
+   
+    case 4 :
+       print(" salir del menu")
+       break 
+   
+    case _:
+       ("invalido")
+       
+
 
 
 
