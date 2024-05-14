@@ -69,58 +69,57 @@ while True:
     print("9.- -area de un rectangulo")
     print("10.- -pitagoras")
     op=int(input())
-
-    match op:
-        case 1:
+    while True:
+        match op:
+           case 1:
             print("Ingrese 2 numeros")
             num1=int(input())
             num2=int(input())
             print("Su resultado es ",suma(num1,num2))
-        case 2:
+           case 2:
             print("Ingrese 2 numeros")
             num1=int(input())
             num2=int(input())
             print("Su resultado es ",resta(num1,num2))
-        case 3:
+           case 3:
             print("Ingrese 2 numeros")
             num1=int(input())
             num2=int(input())
             print("Su resultado es ",multi(num1,num2))
-        case 4:
+           case 4:
             print("Ingrese 2 numeros")
             num1=int(input())
             num2=int(input())
             print("Su resultado es ",divi(num1,num2))
-        case 5:
+           case 5:
             print("Ingrese 1 numero")
             l=int(input())
             print("Su resultado es ",Perimetrocuadrado(l))
-        case 6:
+           case 6:
             print("ingrese un numero")
             num=int(input())
             print("Su resultado es", calcular_area(num))
-        case 7:
+           case 7:
             print("ingrese un  numero")
             num=int(input())
             print( "Su resultado es", area_cuadrado(num))
-        case 8:
+           case 8:
             print("ingrese dos numero")
             num=int(input())
             num2=int(input())
             print( "Su resultado es", area_triangulo(num, num2))
-        case 9:
+           case 9:
             print("ingrese dos numero")
             b=int(input())
             a=int(input())
             print( "Su resultado es", area_rectangulo(b, a))
-        case 10:
+           case 10:
             print("ingrese los catetos")
             b=int(input())
             c=int(input())
             print( "Su resultado de la hipotenusa es" , Tpitagoras(b, c))
-    break
-
-
+            break
+  
     
 
 
