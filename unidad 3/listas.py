@@ -60,3 +60,4 @@ lista.remove(55)
 lista.reverse()
 for elemento in lista:
     print(elemento )
+    print(len(lista))
