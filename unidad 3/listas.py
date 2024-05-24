@@ -52,12 +52,33 @@ import random
 
 #remove para quitar elemento 
 #reverse para recorrer desde atras
-#sort para ordenar de mayor a menor 
-lista=[41,73,4,55,77,89]
-lista.insert(0, "jessy")
-lista.remove(55)
-# lista.sort()
-lista.reverse()
-for elemento in lista:
-    print(elemento )
-    print(len(lista))
+#sort para ordenar de menor a mayor 
+# lista=[41,73,4,55,77,89]
+# lista.insert(0, "jessy")
+# lista.remove(55)
+# # lista.sort()
+# lista.reverse()
+# for elemento in lista:
+#     print(elemento )
+    # print(len(lista))
+
+#lista en numeros negativos desde -6 a -1 
+# lista=[41,73,4,55,77,89]
+# print(lista[-5])
+lista=[]
+print("ingrese tres nombres")
+nombre=input()
+nombre1=input()
+nombre2=input()
+for nombre in lista:
+   print(len(nombre))
+
+
+
+
+
+
+
+
+
+
