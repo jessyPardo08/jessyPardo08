@@ -1,5 +1,5 @@
-# #numero random
-import random
+# # #numero random
+# import random
 # num=random.randint(0,100)
 # num2=random.randint(0,100)
 # lista=[41,73,4,55,77,89]
@@ -65,16 +65,23 @@ import random
 #lista en numeros negativos desde -6 a -1 
 # lista=[41,73,4,55,77,89]
 # print(lista[-5])
-lista=[]
-print("ingrese tres nombres")
-nombre=input()
-nombre1=input()
-nombre2=input()
-for nombre in lista:
-   print(len(nombre))
+#
 
+# nombre=["jessy", "barabra", "vicente"]
+# edad=[]
+# import random
+# for j in range(3): 
+#  num=random.randint(18,30)
+#  edad.append(num)
+ 
+# for e in range(len(nombre)):
+#   print("su nombre es", nombre[e] ,"y su edad es", str(edad[e]))
 
-
+ingresa="si"
+nombres=[]
+while True!="no":
+    nnom=input("inmgrese un nombre nuevo ")
+    nombres.append(nnom)
 
 
 
