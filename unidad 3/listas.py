@@ -81,7 +81,7 @@ ingresa="si"
 nombres=[]
 while True!="no":
     nnom=input("inmgrese un nombre nuevo ")
-    nombres.append(nnom)
+    nombres.append(nom)
 
 
 
