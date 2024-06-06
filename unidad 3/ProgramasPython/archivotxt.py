@@ -39,4 +39,4 @@ n=int(input("ingrese el primer numero"))
 n2=int(input("ingrese el segundo numero"))
 nombre_fichero= 'tabla' + str(n) + str(n2) + '.txt'
 with open(nombre_fichero, 'w') as f:
-    f.write(str(n) + '+' + str(n2) '=' + str(num1+num2))
+    f.write(str(n) + '+' + str(n2) + '=' + str(n+n2))
