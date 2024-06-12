@@ -60,26 +60,43 @@
  
 
 
-def recorrer_lista(lista):
- for elemento in lista:
-  print(elemento)
+# def recorrer_lista(lista):
+#  for elemento in lista:
+#   print(elemento)
 
-mi_lista=[1,2,3,4]
-# recorrer_lista(mi_lista)
+# mi_lista=[1,2,3,4]
+# # recorrer_lista(mi_lista)
 
-def separarNumParesDeImpares(lista):
- pares=[]
- impares=[]
+# def separarNumParesDeImpares(lista):
+#  pares=[]
+#  impares=[]
 
- for numero in lista:
-  if numero % 2 ==0:
-   pares.append(numero)
-  else:
-   impares.append(numero)
- return pares, impares
-pares, impares= separarNumParesDeImpares(mi_lista)
-print("numeros pares:" , pares)
-print("numeros impares:", impares)
+#  for numero in lista:
+#   if numero % 2 ==0:
+#    pares.append(numero)
+#   else:
+#    impares.append(numero)
+#  return pares, impares
+# pares, impares= separarNumParesDeImpares(mi_lista)
+# print("numeros pares:" , pares)
+# print("numeros impares:", impares)
 
 
+# def buscar_valor(diccionario, key):
+#  if key in diccionario:
+#   return diccionario[key]
+#  else:
+#   return f"la clave '{key}' no existe en el diccionario"
+# mi_diccionario={'a':1, 'b': 2, 'c':3}
 
+# clave_buscada= str(input("ingrese numero indice"))
+
+# resultado=buscar_valor(mi_diccionario, clave_buscada)
+
+# print(resultado)
+
+def crear_diccionario():
+ diccionario={}
+ while True:
+  key=input("ingrese plabra clave para salir")
+   
