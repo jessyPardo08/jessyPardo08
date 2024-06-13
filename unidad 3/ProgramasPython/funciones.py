@@ -59,8 +59,27 @@
 
 # print(resultado)
 
+# def crear_diccionario():
+#  diccionario={}
+#   key=input("ingrese una key")
+#   value=input("ingrese el  valor de la key annterior")
+#   diccionario=[key]=value
+#   print(diccionario)
+
+# crear_diccionario()
+
 def crear_diccionario():
- diccionario={}
- while True:
-  key=input("ingrese plabra clave para salir")
-   
+    diccionario={}
+    
+    while True:
+        key=input("ingrese una key")
+        if key.lower()== "shazam":
+         print(diccionario)
+         break
+        else:
+          value=input("ingrese el  valor de la key anterior '{key}' :")
+          diccionario= [key] = value
+          print(diccionario)
+
+
+crear_diccionario()
