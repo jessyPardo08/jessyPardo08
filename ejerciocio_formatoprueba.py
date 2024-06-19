@@ -6,3 +6,6 @@ def agregar_evento(evento):
     fecha_evento= f"{fecha_hora_actual} - {evento}"
     bitacora.append(fecha_evento)
     print(f"evento '{evento}' registrado en la bitacora del auto.")
+evento="viaje "
+with open("bitacora.txt", mode='a',newline='')as escri:
+    escri.write("\n"+agregar_evento(evento))
